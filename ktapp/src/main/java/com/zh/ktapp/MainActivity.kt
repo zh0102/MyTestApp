@@ -1,12 +1,10 @@
 package com.zh.ktapp
 
 import android.util.Log
-import android.view.View.OnClickListener
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
 
-import androidx.lifecycle.Observer
 import com.zh.ktapp.base.BaseActivity
 
 class MainActivity : BaseActivity<MainViewModel>(R.layout.activity_main) {
@@ -28,15 +26,15 @@ class MainActivity : BaseActivity<MainViewModel>(R.layout.activity_main) {
         tvContext = findViewById(R.id.tv_context)
         btGet = findViewById(R.id.get)
         btSend = findViewById(R.id.send)
-        mViewModel.studentData?.observe(this, Observer {
-            Log.i(TAG, "initView: " + it)
+        mViewModel.studentData.observe(this) {
+            Log.i(TAG, "initView: $it")
             Toast.makeText(this, it.toString(), Toast.LENGTH_LONG).show()
             tvContext?.text = it.toString()
-        })
-        bt1.setOnClickListener(OnClickListener {
+        }
+        bt1.setOnClickListener {
             mViewModel.insertStudent()
             getData()
-        })
+        }
         bt2.setOnClickListener {
             mViewModel.deleteStudent()
             getData()

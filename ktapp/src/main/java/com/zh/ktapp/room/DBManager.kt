@@ -14,7 +14,7 @@ import com.zh.ktapp.bean.dao.WeatherDetailDao
 
 /**
  * @ClassName: DBManager
- * @Description: TODO
+ * @Description: 数据库管理类
  * @Author: ZHW
  * @Date: 2022/10/13 上午11:52
  */

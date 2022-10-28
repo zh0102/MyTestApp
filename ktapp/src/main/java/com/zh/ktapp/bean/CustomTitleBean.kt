@@ -27,7 +27,7 @@ class CustomTitleBean {
     var customName //自定义名称
             : String? = null
 
-    constructor() {}
+    constructor() {}//构造方法
 
     @Ignore
     constructor(num: Int, numType: Int, defaultName: String?, customName: String?) {

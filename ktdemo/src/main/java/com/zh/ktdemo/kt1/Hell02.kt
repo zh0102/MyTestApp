@@ -2,7 +2,7 @@ package com.zh.ktdemo.kt1
 
 /**
  * @ClassName: Hell02
- * @Description: TODO
+ * @Description:
  * @Author: ZHW
  * @Date: 2022/9/28 上午11:37
  */

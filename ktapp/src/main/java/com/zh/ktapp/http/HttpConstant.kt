@@ -1,5 +1,6 @@
 package com.zh.ktapp.http
 
+
 /**
  * @ClassName: HttpConstant
  * @Description: 通用数据
@@ -12,12 +13,13 @@ object HttpConstant {
     const val BASE_URL = "https://route.showapi.com"
 
     /**
-     * appID todo
+     * appID
      */
     const val APP_ID = "替换为万维易源的appId"
 
     /**
-     * app_sign todo
+     * app_sign
      */
     const val APP_SIGN = "替换为万维易源的sign"
+
 }

@@ -1,16 +1,8 @@
 package com.zh.ktapp.mqtt;
 
-import android.annotation.SuppressLint;
 import android.content.Context;
-import android.os.Handler;
-import android.os.Looper;
-import android.os.Message;
 import android.text.TextUtils;
 import android.util.Log;
-
-import androidx.annotation.NonNull;
-
-import com.blankj.utilcode.util.NetworkUtils;
 import com.google.gson.Gson;
 
 import org.eclipse.paho.client.mqttv3.IMqttDeliveryToken;
@@ -27,7 +19,7 @@ import java.util.HashMap;
 
 /**
  * @ClassName: MqttManager
- * @Description: TODO
+ * @Description:
  * @Author: ZHW
  * @Date: 2022/10/20 下午6:21
  */

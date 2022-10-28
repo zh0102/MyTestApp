@@ -1,16 +1,14 @@
 package com.zh.ktapp.data
 
-import com.blankj.utilcode.util.Utils
 import com.zh.ktapp.http.CResponse
 import com.zh.ktapp.bean.Weather
 import com.zh.ktapp.http.HttpConstant
 import com.zh.ktapp.http.RetrofitManager
 import com.zh.ktapp.http.api.ApiService
-import com.zh.ktapp.room.DBManager
 
 /**
  * @ClassName: WeatherRepository
- * @Description: TODO
+ * @Description:
  * @Author: ZHW
  * @Date: 2022/10/12 下午3:01
  */
@@ -22,7 +20,7 @@ object WeatherRepository {
         )
     }
 
-    suspend fun getWeather(area: String): CResponse<Weather> {
+     fun getWeather(area: String): CResponse<Weather> {
         return service.getWeather(area)
     }
 

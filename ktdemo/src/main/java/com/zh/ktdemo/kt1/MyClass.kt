@@ -3,7 +3,7 @@ package com.zh.ktdemo.kt1
 
 /**
  * @ClassName: MyClass
- * @Description: TODO
+ * @Description:
  * @Author: ZHW
  * @Date: 2022/9/26 下午6:40
  */

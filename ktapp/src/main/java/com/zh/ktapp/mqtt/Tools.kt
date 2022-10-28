@@ -1,14 +1,10 @@
 package com.zh.ktapp.mqtt
 
-import android.content.Context
-import android.net.ConnectivityManager
-import android.net.Network
-import com.blankj.utilcode.util.Utils
 import java.lang.reflect.Method
 
 /**
  * @ClassName: Utils
- * @Description: TODO
+ * @Description:
  * @Author: ZHW
  * @Date: 2022/10/21 上午10:39
  */

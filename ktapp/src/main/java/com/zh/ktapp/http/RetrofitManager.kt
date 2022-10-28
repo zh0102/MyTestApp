@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit
 
 /**
  * @ClassName: RetrofitManager
- * @Description: TODO
+ * @Description:
  * @Author: ZHW
  * @Date: 2022/10/12 下午2:22
  */

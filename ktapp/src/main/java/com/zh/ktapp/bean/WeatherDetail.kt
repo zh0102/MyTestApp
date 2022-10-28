@@ -6,7 +6,7 @@ import androidx.room.PrimaryKey
 
 /**
  * @ClassName: WeatherDetail
- * @Description: TODO
+ * @Description:
  * @Author: ZHW
  * @Date: 2022/10/12 下午3:15
  */

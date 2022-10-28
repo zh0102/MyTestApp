@@ -4,7 +4,7 @@ import androidx.lifecycle.ViewModel
 
 /**
  * @ClassName: BaseViewModel
- * @Description: TODO
+ * @Description:
  * @Author: ZHW
  * @Date: 2022/10/13 上午9:31
  */

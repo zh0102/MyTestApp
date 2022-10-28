@@ -1,8 +1,6 @@
 package com.zh.ktapp
 
-import android.app.Application
 import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.blankj.utilcode.util.Utils
 import com.zh.ktapp.base.BaseViewModel
@@ -18,7 +16,7 @@ import kotlinx.coroutines.withContext
 
 /**
  * @ClassName: MainViewModel
- * @Description: TODO
+ * @Description:
  * @Author: ZHW
  * @Date: 2022/10/13 上午10:38
  */

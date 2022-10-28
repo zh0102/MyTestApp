@@ -2,7 +2,7 @@ package com.zh.ktapp.mqtt;
 
 /**
  * @ClassName: Constant
- * @Description: TODO
+ * @Description:
  * @Author: ZHW
  * @Date: 2022/10/20 下午6:27
  */

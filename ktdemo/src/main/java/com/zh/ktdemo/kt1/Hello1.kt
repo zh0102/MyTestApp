@@ -2,7 +2,7 @@ package com.zh.ktdemo.kt1
 
 /**
  * @ClassName: Hello1
- * @Description: TODO
+ * @Description:
  * @Author: ZHW
  * @Date: 2022/9/28 上午11:17
  */

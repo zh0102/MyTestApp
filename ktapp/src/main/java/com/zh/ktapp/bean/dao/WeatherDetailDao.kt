@@ -8,7 +8,7 @@ import com.zh.ktapp.bean.WeatherDetail
 
 /**
  * @ClassName: WeatherDetail
- * @Description: TODO
+ * @Description:
  * @Author: ZHW
  * @Date: 2022/10/13 下午12:15
  */

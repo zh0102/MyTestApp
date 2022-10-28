@@ -2,7 +2,7 @@ package com.zh.myalgorithm.singleton
 
 /**
  * @ClassName: KLazilyDCLSingleton
- * @Description: TODO
+ * @Description:
  * @Author: ZHW
  * @Date: 2022/10/19 下午4:35
  */
